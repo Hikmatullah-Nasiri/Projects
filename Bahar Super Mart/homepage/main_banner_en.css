@@ -1,0 +1,150 @@
+/*============================*/
+/*=== Custom Slider Styles ===*/
+/*============================*/
+#slider-wrapper1 {
+    width: 714px;
+	height:278px;
+}
+
+#slider1 {
+	position:relative;
+	width: 714px;
+	height:278px;
+}
+#slider1 img {
+	position:absolute;
+	display:none;
+	
+}
+#slider1 a {
+	border:0;
+	display:block;
+}
+
+#slider1 .nivo-controlNav {
+	position:absolute;
+	top:260px;
+	right:40px;
+	z-index:100;
+
+}
+#slider1 .nivo-controlNav a {
+	display:block;
+	width:15px;
+	height:22px;
+	background:url(../images/bullets.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+	margin-right:-4px;
+	float:left;
+}
+#slider1 .nivo-controlNav a.active {
+	background-position:0 -22px;
+}
+
+#slider1 .nivo-directionNav a {
+	display:block;
+	width:30px;
+	height:30px;
+	background:url(../images/arrows.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+}
+#slider1 a.nivo-nextNav {
+	background-position:-30px 0;
+	right:15px;
+}
+#slider1 a.nivo-prevNav {
+	left:15px;
+}
+
+#slider1 .nivo-caption {
+    text-shadow:none;
+	font-size:14px;
+}
+#slider1 .nivo-caption a { 
+    color:#efe9d1;
+    text-decoration:underline;
+}
+
+/*====================*/
+/*=== Other Styles ===*/
+/*====================*/
+.clear {
+	clear:both;
+}
+
+/* The Nivo Slider styles */
+.nivoSlider1 {
+	position:relative;
+}
+.nivoSlider1 img {
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+/* If an image is wrapped in a link */
+.nivoSlider1 a.nivo-imageLink {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	border:0;
+	padding:0;
+	margin:0;
+	z-index:60;
+	display:none;
+}
+/* The slices in the Slider */
+#slider1 .nivo-slice {
+	display:block;
+	position:absolute;
+	z-index:50;
+	height:100%;
+}
+/* Caption styles */
+#slider1 .nivo-caption {
+	position:absolute;
+	bottom:0px;
+	background:#000;
+	color:#fff;
+	opacity:0.8; /* Overridden by captionOpacity setting */
+	width:100%;
+	z-index:89;
+	border-radius:0px 0px 5px 5px;
+	-webkit-border-radius:0px 0px 5px 5px;
+	-moz-border-radius:0px 0px 5px 5px;
+}
+#slider1 .nivo-caption p {
+	padding:5px;
+	margin:0;
+}
+#slider1 .nivo-caption a {
+	display:inline !important;
+}
+#slider1 .nivo-html-caption {
+    display:none;
+}
+/* Direction nav styles (e.g. Next & Prev) */
+#slider1 .nivo-directionNav a {
+	position:absolute;
+	top:45%;
+	z-index:99;
+	cursor:pointer;
+}
+#slider1 .nivo-prevNav {
+	left:0px;
+}
+#slider1 .nivo-nextNav {
+	right:0px;
+}
+/* Control nav styles (e.g. 1,2,3...) */
+#slider1 .nivo-controlNav a {
+	position:relative;
+	z-index:99;
+	cursor:pointer;
+}
+#slider1 .nivo-controlNav a.active {
+	font-weight:bold;
+}
